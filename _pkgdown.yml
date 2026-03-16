@@ -1,0 +1,35 @@
+url: https://waeponwifestre.djnavarro.net/
+
+template:
+  bootstrap: 5
+  light-switch: true
+  theme: gruvbox-light
+  theme-dark: gruvbox-dark
+
+navbar:
+  structure:
+    left:  [intro, reference, articles, tutorials, news]
+    right: [search, github, lightswitch, sites]
+  components:
+    sites:
+      text: Sites
+      menu:
+      - text: Homepage
+        href: https://djnavarro.net
+      - text: Data science blog
+        href: https://blog.djnavarro.net
+      - text: Generative art
+        href: https://art.djnavarro.net
+      - text: Generative art
+        href: https://art.djnavarro.net
+      - text: Software projects
+        href: https://code.djnavarro.net
+      - text: Academic papers
+        href: https://papers.djnavarro.net
+      - text: More...
+        href: https://djnavarro.net/sites/
+
+footer:
+  structure: 
+    left: developed_by
+    right: built_with        
