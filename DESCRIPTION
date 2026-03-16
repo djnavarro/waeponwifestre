@@ -10,3 +10,4 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
 URL: https://github.com/djnavarro/waeponwifestre, https://waeponwifestre.djnavarro.net/
 BugReports: https://github.com/djnavarro/waeponwifestre/issues
+Config/Needs/website: djnavarro/waeponwifestre
