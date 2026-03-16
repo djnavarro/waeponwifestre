@@ -18,11 +18,9 @@ navbar:
         href: https://djnavarro.net
       - text: Data science blog
         href: https://blog.djnavarro.net
-      - text: Generative art
+      - text: Computational art
         href: https://art.djnavarro.net
-      - text: Generative art
-        href: https://art.djnavarro.net
-      - text: Software projects
+      - text: Coding projects
         href: https://code.djnavarro.net
       - text: Academic papers
         href: https://papers.djnavarro.net
