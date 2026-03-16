@@ -18,5 +18,5 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-wǣpen (“penis”, literally “weapon”) + wīf (“woman”) + -estre (“-ster”)
+wǣpen (“weapon”) + wīf (“woman”) + -estre (“-ster”)
 

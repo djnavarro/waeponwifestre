@@ -7,4 +7,4 @@
 
 <!-- badges: end -->
 
-wǣpen (“penis”, literally “weapon”) + wīf (“woman”) + -estre (“-ster”)
+wǣpen (“weapon”) + wīf (“woman”) + -estre (“-ster”)
