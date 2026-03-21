@@ -6,17 +6,31 @@ template:
   bslib:
     base_font: {google: "Atkinson Hyperlegible"}
     heading_font: {google: "Atkinson Hyperlegible"}
+    bg: "#eee"  # Background color for light mode
+    fg: "#152740"  # Text color for light mode
+    primary: "#306cc9"  # Link color for light mode
+    navbar-light-bg: "#ddd" # Navbar background for light mode
+    bg-dark: "#222"  # Background color for dark mode
+    body-bg-dark: "#222"
+    fg-dark: "#ccc"  # Text color for dark mode
+    primary-dark: "#cd3782"  # Link color for dark mode    
+    link-color-dark: "#cd3782"
+    navbar-dark-bg: "#cd3782" # Navbar background for dark mode
   theme: atom-one-light
   theme-dark: atom-one-dark
 
 navbar:
-  bg: primary
   structure:
     left:  [intro, reference, articles, tutorials, news]
-    right: [search, github, lightswitch, sites]
+    right: [search, github, packages, sites, lightswitch]
   components:
+    packages:
+      icon: fa-code
+      href: https://code.djnavarro.net
+      aria-label: Code projects
     sites:
-      text: Sites
+      icon: fa-link
+      aria-label: Links
       menu:
       - text: Homepage
         href: https://djnavarro.net
@@ -33,5 +47,9 @@ navbar:
 
 footer:
   structure: 
-    left: developed_by
-    right: built_with        
+    left: by_danielle
+    right: built_with
+  components:
+    by_danielle: Developed by [Danielle Navarro](https://djnavarro.net) 
+  
+
