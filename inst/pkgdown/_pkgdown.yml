@@ -3,10 +3,14 @@ url: https://waeponwifestre.djnavarro.net/
 template:
   bootstrap: 5
   light-switch: true
-  theme: gruvbox-light
-  theme-dark: gruvbox-dark
+  bslib:
+    base_font: {google: "Atkinson Hyperlegible"}
+    heading_font: {google: "Atkinson Hyperlegible"}
+  theme: atom-one-light
+  theme-dark: atom-one-dark
 
 navbar:
+  bg: primary
   structure:
     left:  [intro, reference, articles, tutorials, news]
     right: [search, github, lightswitch, sites]
