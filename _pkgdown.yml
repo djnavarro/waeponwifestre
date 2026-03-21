@@ -16,8 +16,8 @@ template:
     primary-dark: "#cd3782"  # Link color for dark mode    
     link-color-dark: "#cd3782"
     navbar-dark-bg: "#cd3782" # Navbar background for dark mode
-  theme: atom-one-light
-  theme-dark: atom-one-dark
+  theme: arrow-light
+  theme-dark: a11y-dark
 
 navbar:
   structure:
